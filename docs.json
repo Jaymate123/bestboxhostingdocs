@@ -3,7 +3,6 @@
     "theme": "mint",
     "name": "Best Box Hosting - Guides",
     "colors": {
-    "colors": {
       "primary": "#0052F0",
       "dark": "#081C3A",
       "light": "#FFFFFF"
@@ -63,7 +62,7 @@
                 {
                     "anchor": "Contact us",
                     "href": "https://bestboxhosting.au/#contact",
-                    "icon": "email"
+                    "icon": "envelope"
                 }
             ]
         }
