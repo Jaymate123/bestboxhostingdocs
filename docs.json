@@ -3,9 +3,9 @@
     "theme": "mint",
     "name": "Best Box Hosting - Guides",
     "colors": {
-      "primary": "#f032a4",
-      "light": "#f565b8",
-      "dark": "#d12c94"
+      "primary": "#0052F0",
+      "dark": "#0A1826",
+      "light": "#FFFFFF"
     },
     "favicon": "/favicon.svg",
     "logo": {
