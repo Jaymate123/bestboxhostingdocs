@@ -1,67 +1,90 @@
 {
-  "$schema": "https://mintlify.com/docs.json",
-  "theme": "willow",
-  "name": "Best Box Hosting",
-  "colors": {
-    "primary": "#007fff"
+    "$schema": "https://mintlify.com/docs.json",
+    "theme": "mint",
+    "name": "Best Box Hosting - Guides",
+    "colors": {
+      "primary": "#f032a4",
+      "light": "#f565b8",
+      "dark": "#d12c94"
+    },
+    "favicon": "/favicon.svg",
+    "logo": {
+        "light": "/logo/light.svg",
+        "dark": "/logo/dark.svg"
+    },
+    "metadata": {
+    "og:title": "Best Box Hosting - Guides",
+    "og:description": "Find easy-to-follow guides and helpful tips for all your Best Box Hosting needs. From setup to troubleshooting, our friendly knowledge base has you covered!",
+    "og:site_name": "Best Box Hosting",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "Best Box Hosting - Guides",
+    "twitter:description": "Find easy-to-follow guides and helpful tips for all your Best Box Hosting needs. From setup to troubleshooting, our friendly knowledge base has you covered!"
   },
-  "favicon": "/favicon.svg",
-  "navigation": {
-    "tabs": [
-      {
-        "tab": "Guides",
-        "groups": [
-          {
-            "group": "Get Started",
-            "pages": [
-              "index"
-            ]
-          }
-        ]
-      }
-    ],
-    "global": {
-      "anchors": [
+  "background": {
+    "decoration": "grid"
+  },
+  "thumbnails": {
+    "appearance": "dark"
+  },
+    "navigation": {
+      "tabs": [
         {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
+          "tab": "General",
+          "pages": [
+            "index"
+          ]
         },
         {
-          "anchor": "Community",
-          "href": "https://mintlify.com/community",
-          "icon": "slack"
+          "tab": "Web Hosting",
+          "pages": [
+            "web-hosting/web"
+          ]
         },
         {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
+          "tab": "Game Hosting",
+          "pages": [
+            "game-hosting/game"
+          ]
         }
-      ]
+      ],
+        "global": {
+            "anchors": [
+                {
+                    "anchor": "Status",
+                    "href": "https://status.bestbox.host",
+                    "icon": "bell"
+                },
+                {
+                    "anchor": "Discord",
+                    "href": "https://bestbox.host/discord",
+                    "icon": "discord"
+                },
+                {
+                    "anchor": "Contact us",
+                    "href": "https://bestboxhosting.au/#contact",
+                    "icon": "email"
+                }
+            ]
+        }
+    },
+    "navbar": {
+        "links": [
+            {
+                "label": "Main Website",
+                "href": "https://bestboxhosting.au/"
+            }
+        ],
+        "primary": {
+            "type": "button",
+            "label": "Portal",
+            "href": "https://portal.bestbox.host/"
+        }
+    },
+    "footer": {
+        "socials": {
+            "x": "https://x.com/bestboxhostingau/",
+            "facebook": "https://www.facebook.com/bestboxhostingau/",
+            "instagram": "https://www.instagram.com/bestboxhostingau/"
+        }
     }
-  },
-  "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
-  },
-  "navbar": {
-    "links": [
-      {
-        "label": "Support",
-        "href": "mailto:hi@mintlify.com"
-      }
-    ],
-    "primary": {
-      "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
-    }
-  },
-  "footer": {
-    "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
-    }
-  }
 }
