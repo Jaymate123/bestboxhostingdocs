@@ -22,7 +22,7 @@
   },
   "background": {
     "decoration": "windows",
-    "colour": {
+    "color": {
       "light": "#FFFFFF",
       "dark": "#0F152E"
     },
