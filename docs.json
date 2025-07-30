@@ -21,10 +21,10 @@
     "twitter:description": "Find easy-to-follow guides and helpful tips for all your Best Box Hosting needs. From setup to troubleshooting, our friendly knowledge base has you covered!"
   },
   "background": {
-    "decoration": "windows",
+    "decoration": "gradient",
     "color": {
       "light": "#FFFFFF",
-      "dark": "#0F152E"
+      "dark": "#00041B"
     }
   },
   "thumbnails": {
