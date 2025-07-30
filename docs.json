@@ -4,7 +4,7 @@
     "name": "Best Box Hosting - Guides",
     "colors": {
       "primary": "#0052F0",
-      "dark": "#081C3A",
+      "dark": "#0052F0",
       "light": "#FFFFFF"
     },
     "favicon": "/favicon.svg",
@@ -21,7 +21,11 @@
     "twitter:description": "Find easy-to-follow guides and helpful tips for all your Best Box Hosting needs. From setup to troubleshooting, our friendly knowledge base has you covered!"
   },
   "background": {
-    "decoration": "grid"
+    "decoration": "windows",
+    "colour": {
+      "light": "#FFFFFF",
+      "dark": "#0F152E"
+    },
   },
   "thumbnails": {
     "appearance": "dark"
